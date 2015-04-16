@@ -1,0 +1,8 @@
+C:\repos\Architecture\Domain\CQRSClient\bin\Debug\CQRSClient.exe.config
+C:\repos\Architecture\Domain\CQRSClient\bin\Debug\CQRSClient.exe
+C:\repos\Architecture\Domain\CQRSClient\bin\Debug\CQRSClient.pdb
+C:\repos\Architecture\Domain\CQRSClient\bin\Debug\Domain.dll
+C:\repos\Architecture\Domain\CQRSClient\bin\Debug\Domain.pdb
+C:\repos\Architecture\Domain\CQRSClient\obj\Debug\CQRSClient.csprojResolveAssemblyReference.cache
+C:\repos\Architecture\Domain\CQRSClient\obj\Debug\CQRSClient.exe
+C:\repos\Architecture\Domain\CQRSClient\obj\Debug\CQRSClient.pdb
