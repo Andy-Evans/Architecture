@@ -9,7 +9,7 @@ namespace Domain
     public interface ICustomerServiceV1
     {
         void AddCustomer(CustomerServiceV1.Customer customer);
-        CustomerServiceV1.Customer UpdateCustomer(CustomerServiceV1.Customer customer);
+        void UpdateCustomer(CustomerServiceV1.Customer customer);
         void DeleteCustomer(int id);
         List<CustomerServiceV1.Customer> GetAllCustomers();
     }
@@ -21,10 +21,9 @@ namespace Domain
             //Repo call to add customer
         }
 
-        public Customer UpdateCustomer(Customer customer)
+        public void UpdateCustomer(Customer customer)
         {
             //Repo perform update
-            return new Customer();
         }
 
         public void DeleteCustomer(int id)

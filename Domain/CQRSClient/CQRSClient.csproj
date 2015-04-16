@@ -48,9 +48,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CQRSExample.csproj">
-      <Project>{ae1d4a20-aa19-4469-b7e7-ae9d9c720fd8}</Project>
-      <Name>CQRSExample</Name>
+    <ProjectReference Include="..\CQRSService\CQRSService.csproj">
+      <Project>{2b2ab0f5-d204-4aa1-8910-6dee1f77d827}</Project>
+      <Name>CQRSService</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

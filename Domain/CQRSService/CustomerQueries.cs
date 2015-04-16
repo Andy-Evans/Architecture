@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CQRSService
 {
-    class CustomerQueries
+    public class CustomerQueries
     {
     }
 }

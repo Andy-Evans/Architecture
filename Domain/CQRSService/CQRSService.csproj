@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="CustomerCommandHandlers.cs" />
     <Compile Include="CustomerCommands.cs" />
+    <Compile Include="CustomerQueries.cs" />
     <Compile Include="DomainEntities.cs" />
     <Compile Include="MessageBus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

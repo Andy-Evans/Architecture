@@ -27,44 +27,43 @@ namespace Domain
 
     public interface IRetrieveCustomerService
     {
-        List<Customer> GetAllCustomers();
-        List<CustomerV2> GetCustomersWhoAreContactableByEmail();
+        List<CustomerV3> GetAllCustomers();
+        List<CustomerV3> GetCustomersWhoAreContactableByEmail();
     }
 
     public class RetrieveCustomerService : IRetrieveCustomerService
     {
-        public List<Customer> GetAllCustomers()
+        public List<CustomerV3> GetAllCustomers()
         {
             // Fetch all customers
-            return new List<Customer>();
+            return new List<CustomerV3>();
         }
 
-        public List<CustomerV2> GetCustomersWhoAreContactableByEmail()
+        public List<CustomerV3> GetCustomersWhoAreContactableByEmail()
         {
             // Fetch all customers where ContactbyEmailIsSet
-            return new List<CustomerV2>();
+            return new List<CustomerV3>();
         }
 
     }
 
     public interface ICustomerServiceV3
     {
-        void AddCustomer(Customer customer);
-        Customer UpdateCustomer(Customer customer);
+        void AddCustomer(CustomerV3 customerV3);
+        void UpdateCustomer(CustomerV3 customerV3);
         void DeleteCustomer(int id);
     }
 
     public class CustomerServiceV3 : ICustomerServiceV3
     {
-        public void AddCustomer(Customer customer)
+        public void AddCustomer(CustomerV3 customerV3)
         {
             //Repo call to add customer
         }
 
-        public Customer UpdateCustomer(Customer customer)
+        public void UpdateCustomer(CustomerV3 customerV3)
         {
             //Repo perform update
-            return new Customer();
         }
 
         public void DeleteCustomer(int id)
@@ -73,7 +72,7 @@ namespace Domain
         }
     }
 
-    public class Customer
+    public class CustomerV3
     {
         public int Id { get; set; }
         public string ForeName { get; set; }

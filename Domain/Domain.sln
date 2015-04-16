@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain.csproj", "{AE1D4A20-AA19-4469-B7E7-AE9D9C720FD8}"
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService", "CustomerService.csproj", "{AE1D4A20-AA19-4469-B7E7-AE9D9C720FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSClient", "CQRSClient\CQRSClient.csproj", "{E7FE07D0-0B4A-4395-90D0-FA35D46E6D62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSService", "CQRSService\CQRSService.csproj", "{2B2AB0F5-D204-4AA1-8910-6DEE1F77D827}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,14 @@ Global
 		{AE1D4A20-AA19-4469-B7E7-AE9D9C720FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE1D4A20-AA19-4469-B7E7-AE9D9C720FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE1D4A20-AA19-4469-B7E7-AE9D9C720FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FE07D0-0B4A-4395-90D0-FA35D46E6D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FE07D0-0B4A-4395-90D0-FA35D46E6D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FE07D0-0B4A-4395-90D0-FA35D46E6D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FE07D0-0B4A-4395-90D0-FA35D46E6D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2AB0F5-D204-4AA1-8910-6DEE1F77D827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2AB0F5-D204-4AA1-8910-6DEE1F77D827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2AB0F5-D204-4AA1-8910-6DEE1F77D827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2AB0F5-D204-4AA1-8910-6DEE1F77D827}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

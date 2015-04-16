@@ -9,10 +9,10 @@ namespace Domain
     public interface ICustomerServiceV2
     {
         void AddCustomer(CustomerV2 customer);
-        CustomerV2 UpdateCustomer(CustomerV2 customer);
+        void UpdateCustomer(CustomerV2 customer);
         void DeleteCustomer(int id);
         List<CustomerV2> GetAllCustomers();
-        void AddCustomerMarketingInfo(int custId, MarketingInfo marketingInfo);
+        void AddCustomerMarketingInfo(int custId, MarketingInfoV2 marketingInfo);
         string GetPrefferedContactDetails(int CustId);
     }
 
@@ -23,10 +23,9 @@ namespace Domain
             //Repo call to add customer
         }
 
-        public CustomerV2 UpdateCustomer(CustomerV2 customer)
+        public void UpdateCustomer(CustomerV2 customer)
         {
             //Repo perform update
-            return new CustomerV2();
         }
 
         public void DeleteCustomer(int id)
@@ -40,7 +39,7 @@ namespace Domain
             return new List<CustomerV2>();
         }
 
-        public void AddCustomerMarketingInfo(int custId, MarketingInfo marketingInfo)
+        public void AddCustomerMarketingInfo(int custId, MarketingInfoV2 marketingInfo)
         {
             //Repo add marketing info to customer
         }
@@ -57,7 +56,7 @@ namespace Domain
         }    
     }
 
-    public class MarketingInfo
+    public class MarketingInfoV2
     {
         public int MarketingPreferences { get; set; }
         public bool ContactByEmail { get; set; }
