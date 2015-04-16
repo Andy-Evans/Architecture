@@ -1,0 +1,5 @@
+C:\repos\Architecture\Domain\CQRSService\bin\Debug\CQRSService.dll
+C:\repos\Architecture\Domain\CQRSService\bin\Debug\CQRSService.pdb
+C:\repos\Architecture\Domain\CQRSService\obj\Debug\CQRSService.csprojResolveAssemblyReference.cache
+C:\repos\Architecture\Domain\CQRSService\obj\Debug\CQRSService.dll
+C:\repos\Architecture\Domain\CQRSService\obj\Debug\CQRSService.pdb
